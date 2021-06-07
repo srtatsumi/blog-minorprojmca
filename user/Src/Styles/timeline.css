@@ -1,0 +1,194 @@
+
+/*navigation bar css starts*/
+.navi{
+	font-family: Laila;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 25px;
+	position: sticky;
+	top:4%;
+	user-select: none;
+}
+.navi > a{
+	margin-left: 20px
+}
+.navi #drop{
+	left:-110px
+}
+.navi > ul li div .dropdown-menu{
+	left:-110px;
+}
+/*nav drop down*/
+.dropdown a{
+  color:white;
+  text-align: center;
+  padding: 0px;
+}
+/*navigation bar css ends*/
+
+/* horizontal card css start*/
+	.card{
+		/*width: 80%;*/
+		/*height: 350px;*/
+		margin:auto;
+		margin-top: 20px;
+		border-radius: 15px;
+	}
+	.card-row{
+		margin: 0px;
+	}
+	.card-image img{
+		width: 100%;
+		margin-top:5%;
+		margin-left:2%
+	}
+	.card .card-image .cover-img{
+		position: relative;
+		/*top: 5%;*/
+	}
+	.card-note{
+		padding:0px;
+		height: 370px;
+	}
+	.card-body{
+		padding-bottom: 0px;
+	}
+	.card-head{
+		padding: 0;
+		margin: 0;
+		margin-left:15px;
+		margin-top: 5px;
+	}
+	.card-head div{
+		padding:0;
+	}
+	.card-head > .card-head-left span{
+		position: relative;
+		bottom: 10px;
+	}
+	.card-head > .card-head-left a i{
+		color:black;
+	}
+	.card-main .row{
+		margin: 0px;
+	}
+	.card-main .card-middle{
+		margin-bottom:7px;
+	}
+	.card-main .card-middle p{
+		font-size: 15px;
+	}
+
+	.card .card-title{
+		font-size: 31px;
+		font-weight:bold;
+	}
+	.card-footer div a span{
+		font-size: 20px;
+		margin: 0px;
+	}
+	#card-footer{
+		/*margin-top: 26px;*/
+		/*margin-left:15px;*/
+		position: relative;
+		top: -20px;
+		background-color: rgb(1 1 1 / 4%);
+	}
+	.card-readmore{
+		position: relative;
+		top: -35px;
+	}
+/* horizontal card css ends*/
+
+
+/* vertical card css starts*/
+
+	.card .card-content{
+		padding-top: 10px; 
+		padding-bottom: 10px;
+	}
+	#vcard .col-sm-6{
+		padding-left:1px;
+		padding-right:1px;
+	}
+	#vcard .col-sm-6 .card{
+		border-radius: 15px;
+	}
+	.vcard-body .card-title{
+		font-size: 20px;
+		text-align: left;
+	}
+	.vcard-body .vcard-note{
+		font-size: 12px;
+		text-align: left;
+	}
+	.vcard-body .vcard-note + div{
+		font-size: 12px;
+		text-align: right;
+		color:blue;
+	}
+	.vcard-body .row{
+		margin-bottom:0px;
+	}
+	.vcard-body .row .col-sm-4{
+		text-align: left;
+		font-size: 18px;
+		padding: 0;
+	}
+	.vcard-body .row .col-sm-8{
+		text-align: right;
+		padding: 0;
+	}
+	#vcard-footer{
+		background-color: rgb(1 1 1 / 4%);
+	    border-top: 1px solid rgba(160,160,160,0.2);
+		padding: 10px 0px 0px;
+	}
+	#vcard-footer #profile{
+		color:black;
+	}
+	#vcard-footer span{
+		position: relative;
+	    bottom: 5px;
+	    left: 5px;
+	}
+
+	#vcard-footer .col-sm-6{
+		padding: 0px;
+		/*margin-left: -16px;*/
+	}
+	/*like share comment*/
+	#vcard-footer .btn-large{
+		height: 0px;
+	    line-height: 10px;
+	}
+	#vcard-footer .col-sm-2 .btn-flat{
+		padding: 0px;
+		margin: 0px;
+	}
+	#vcard-footer .col-sm-2{
+		text-align: right;
+	    padding: 0px;
+	    margin-left: -5px;
+	}
+/* vertical card css ends
+
+/*modal*/
+.modal {
+	max-height: 85%;
+	width: 60%;
+}
+.modal-dialog {
+	margin: 25px 0px 0px 25px;
+	max-width: 100%;
+}
+.modal-content  {
+	height: 530px;
+	width: 100%
+	
+}
+.modal-body  {
+	overflow-y: scroll;
+}
+
+/*modal*/

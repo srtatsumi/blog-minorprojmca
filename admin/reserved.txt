@@ -1,0 +1,9 @@
+<tfoot>
+	<tr>
+	<th>Name</th>
+	<th>Email Id</th>
+	<th>Contact Number</th>
+	<th>Address</th>
+	<th>Genre</th>
+	</tr>
+</tfoot>

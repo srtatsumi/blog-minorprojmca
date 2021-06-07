@@ -1,0 +1,67 @@
+body{
+	margin: 0; padding: 0;
+}
+a:active{
+  color:white;
+  text-decoration:none;
+  text-align: center;
+}
+a:hover{
+  color:white;
+  text-decoration:none;
+  text-align: center;
+}
+a:visited{
+  color: white;
+  text-decoration:none;
+  text-align: center;
+}
+
+nav .input-field {
+  margin: 0;
+  height: initial;
+}
+
+
+/*profile image css starts*/
+
+.pimg {
+  border-radius: 50%;
+  width:20%;
+  height: 100%;
+}
+/*profile image css ends*/
+
+
+/*vertical card profile image css starts*/
+
+.vpimg {
+  border-radius: 50%;
+  width:15%;
+  height: 100%;
+}
+/*vertical card profile image css ends*/
+
+
+
+/*nav profile image css starts*/
+.navpimg {
+  border-radius: 50%;
+  /*width:20%;*/
+  height: 100%;
+}
+/*nav profile image css ends*/
+
+.banned_div{
+        font-family: 'Lemonada', cursive;
+        color:red;
+        position: fixed;
+        left:1px;
+        top:250px;
+        background-color:white;
+        z-index: 999;
+        height: 1000px;
+        width: 100%;
+        text-align: center;
+        /*margin-top:100px;*/
+      }

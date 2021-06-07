@@ -1,0 +1,113 @@
+/*navigation bar css starts*/
+.navi{
+  font-family: Laila;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  position: relative;
+  top:4%;
+  user-select: none;
+}
+.navi > a{
+  margin-left: 20px
+}
+.navi #drop{
+  left:-110px
+}
+.navi > ul li div .dropdown-menu{
+  left:-110px;
+}
+/*nav drop down*/
+.dropdown a{
+  color:white;
+  text-align: center;
+  padding: 0px;
+}
+/*navigation bar css ends*/
+
+/*sidebar css starts*/
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  background-color: #74D0DC;
+  position: fixed;
+  top:0px;
+  left:0;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  color: black;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+input[type=text]:not(.browser-default){
+  background-color: white;
+  width:80%;
+  margin:auto;
+  border: 1px groove white;
+  border-radius: 5px;
+}
+input[type=file]:not(.browser-default){
+  background-color: white;
+  width:80%;
+  margin:auto;
+  border: 1px groove white;
+  border-radius: 5px;
+}
+#categories{
+  background-color: white;
+  width:80%;
+  margin:auto;
+  border: 1px groove white;
+  border-radius: 5px;
+  text-align-last: center;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+  border: 1px groove black;
+}
+input[type=file]:not(.browser-default):focus:not([readonly]){
+  border: 1px groove black;
+}
+
+
+label {
+    font-size: 25px;
+    color: black;
+}
+/*sidebar css ends here*/
+
+/*editor starts*/
+.editor{
+  position:fixed;
+  top:66px;
+  left:350px;
+}
+/*editor ends*/
+
+/*drop down*/
+.dropdown a{
+  color:white;
+  text-align: center;
+  padding: 0px;
+}
+/*drop down*/
